@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic';
+}
+header{
+    background-image: linear-gradient(rgba(5, 5, 5, 0.5),rgba(0,0,0,0.5)), url(../sponsori.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.title{
+    position: absolute;
+    top: 22%;
+    left: 13%;
+    transform: translate(-30%,-30%);
+}
+.title h1 {
+    color:white;
+    font-size: 50px;
+    
+}
+
+.column  {
+
+
+    float: right;
+    width:200px ;
+    padding: 30px;
+    
+    
+
+  }
+
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .column1  {
+
+
+    float: right;
+    width:200px ;
+    padding: 30px;
+  }
+
+  
+  .row1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .column2  {
+
+
+    float: right;
+    width:200px ;
+    padding: 30px;
+  }
+
+  
+  .row2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .column3 {
+
+
+    float: right;
+    width:200px ;
+    padding: 30px;
+  }
+
+  
+  .row3::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
